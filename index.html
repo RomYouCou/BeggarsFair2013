@@ -1,96 +1,131 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Beggars Fair Youth Stage 2013</title>
-  <link href='http://fonts.googleapis.com/css?family=Sintony' rel='stylesheet' type='text/css'>
-  <meta name="viewport" content = "width = device-width, initial-scale = 0.9, minimum-scale = 0.1, maximum-scale = 5" /> 
+  <title>RYC Beggars Fair Youth Stage 2013</title>
   <style type="text/css">
+  body {
+    margin: 0;
+    font-family: sans-serif;
+  }
+
   .container {
-    max-width: 720px;
+    padding: 10px 10;
+    min-width: 720px;
+    max-width: 1020px;
     width: 100%;
     margin: auto;
-    font-family: 'Signika', sans-serif;
-    font-weight: lighter;
-    margin-top: 10px;
   }
-  h3 {
+
+  header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 100px;
+  }
+
+  .nav {
+    list-style-type: none;
+    background-color: #eee;
+    padding: 0 10px;
+  }
+
+  .nav li {
+    display: block;
+    width: 20%;
+    float:left;
+    text-align: center;
+  }
+
+  .nav li.current {
+    background-color: #333;
+  }
+
+  .nav li.current a {
+    color: #fff;
+  }
+
+  nav li a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    padding: 10px 0;
+  }
+
+  h1 {
+    font-size: 50px;
     margin: 0;
   }
-  b {
-    font-weight: normal;
+
+  h2 {
+    font-size: 30px;
+    margin: 0;
+    text-align: right;
   }
-  .box {
-    border-left : 4px solid #aaa;
-    padding-left: 10px;
-    position: relative;
-    left: -14px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    margin-bottom: 5px;
+
+  h3 {
+    font-size: 30px;
+    border-bottom: 1px solid #ccc;
   }
-  .box:hover {
-    border-left : 4px solid #3371A3;
+
+  .spacer {
+    height: 300px;
   }
-  .logo {
-    margin: 0px 10px 10px 0;
-  }
-  h1, h2, h3 {
-    font-family: 'Sintony', sans-serif;
-  }
-  .goleft {
-    float: left;
-  }
-  .goright {
-    float: right;
-  }
-  .clear {
-    clear:both;
-  }
+
   </style>
 </head>
 <body>
+  <header>
+    <div class="container">
+      <h2>13th July</h2>
+      <h1 id="fittext">RYC: Beggars Fair Youth Stage 2013</h1>
+    </div>
+  </header>
+
+  <nav class="container nav">
+    <li class="current"><a href="#lineup">Line Up</a></li>
+    <li><a href="#activities">Activities</a></li>
+    <li><a href="#directions">Directions</a></li>
+    <li><a href="#volunteer">Volunteer</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <div style="clear:both;"></div>
+  </nav>
+
   <div class="container">
-    <header>
-      <a href="http://ryc.org.uk/"><img class="logo goleft" src="https://twimg0-a.akamaihd.net/profile_images/681873925/ryclogo3mini_bigger.png"></a>
-      <h2 class="goleft">Beggars Fair Youth Festival</h2>
-      <h3 class="goright" style="padding-top:24px;">July 13th 2013</h3>
-      <div class="clear"></div>
-    </header>
 
-    <div class="box">
-      <h3 id="about">About</h3>
-      <p>The Beggars Fair is an annual music event but for the 5th time running the <a href="http://ryc.org.uk">RYC (Romsey Youth Council)</a> has stolen the park to lay on an event primarily aimed at young people!</p>
+    <p>For the 5th time <a href="#">Romsey Youth Council (RYC)</a> are running the <a href="#">Beggars Fair</a> Youth Stage in the park. The event is a free open-air gig presenting local music talent and activities for young people to enjoy.</p>
 
-      <p>This is an <b>Alcohol free event</b>. Anyone with alcohol or under the influence will be refused entry. The event is being monitored by police and security guards.</p>
-
-      <p>It's <b>FREE to attend</b>, is open air and found in Memorial Park park and has loads of young local music acts performing.</b></p>
-
-      <p><b>Join the <a href="https://www.facebook.com/events/129336800580322/">Facebook Event</a>!</b></p>
-
-    </div>
-
-    <div class="box">
-      <h3 id="lineup">Lineup</h3>
-      <p>Coming Soon.</p>
-    </div>
-
-    <div class="box">
-      <h3 id="apply">Bands/Artists Apply</h3>
-      <p>After many requests and a lot of waiting we are able to start accepting bands!</p>
-      <p>To be elegeable to play we do have some rough rules we go by:</p>
-      <ul>
-        <li>Band/artist be under the age of 21</li>
-        <li>No Explicit Content</li>
-        <li>Can be at the event for the whole day</li>
-        <li>Can play for upto 30 minutes if required</li>
-      </ul>
-      <p>These rules can be waived at Romsey Youth Council's discretion.</p>
-      <a href="https://docs.google.com/spreadsheet/viewform?formkey=dDVZR1RzMXNELWtYNWdla3FkWHg1c1E6MA" class="bar">Apply</a>
-    </div>
-    <div class="box">
-      <h3>Romsey Youth Council</h3>
-      <p>For more information on who we are and what we do, check out our <a href="http://ryc.org.uk">Website<a>, <a href="https://facebook.com/RomYouCou" class="bar">Facebook</a> and <a href="https://twitter.com/RomYouCou" class="bar">Twitter</a></p>
-    </div>
+    <h3 id="lineup">Line Up <span style="color:#aaa;font-size:20px;margin-left:20px;">?? bands, 12 - 6 PM</span></h3>
+    <div class="spacer"></div>
+    <h3 id="activities">Activities</h3>
+    <div class="spacer"></div>
+    <h3 id="directions">Directions</h3>
+    <div class="spacer"></div>
+    <h3 id="volunteer">Volunteer</h3>
+    <div class="spacer"></div>
+    <h3 id="contact">Contact</h3>
+    <div class="spacer"></div>
   </div>
+
+  <footer style="color:#aaa;margin: 20px;">
+    <div class="container">
+      <table style="width:100%;">
+        <tr>
+          <td style="width:33%;text-align:center;">
+            &copy; Romsey Youth Council 2013.
+          </td>
+          <td style="width:33%;text-align:center;">
+            <a href="#">Top</a>
+          </td>
+          <td style="width:33%;text-align:center;">
+            <a href="http://bensbit.co.uk">Ben built this.</a>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="js/fittext.js"></script>
+  <script type="text/javascript">
+  fitText(document.getElementById('fittext'), 1.75)
+  </script>
 </body>
 </html>
